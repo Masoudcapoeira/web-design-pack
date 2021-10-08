@@ -1,28 +1,28 @@
 .box {width: 200px
     ; height: 200px;
-    padding: 10px;
+    padding: 30px;
 background-color: red;}
 .box1 {width: 200px;
 height: 200px;
-padding: 10px;
+padding: 30px;
 background-color: blue;}
 .box2 {width: 200px;
 height: 200px;
-padding: 10px;
+padding: 30px;
 background-color: brown;
 }
 .box3 {width: 200px;
 height: 200px;
-padding: 10px;
+padding: 30px;
 background-color: chartreuse;
 }
 .box4 {width: 200px;
 height: 200px;
-padding: 10px;
+padding: 30px;
 background-color: darkmagenta;
 }
 .box5 {width: 200px;
 height: 200px;
-padding: 10px;
+margin :-130px;
 background-color: darksalmon;
 }
