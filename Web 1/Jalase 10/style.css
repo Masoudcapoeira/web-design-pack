@@ -1,0 +1,30 @@
+html{
+    font-family: 'IranNastaliq','IranNastaliq',tahoma;
+}
+.box{
+width: 1000px;
+height: 600px;
+    background-color: rosybrown;
+    position: relative;
+    left: calc(50% - 500px);
+top: calc(50% - 300) ;}
+
+.box1 , .box3 , .box5 , .box7{
+    text-align: right;
+    font-size: 50px;
+    text-shadow: 2px 1px gray;
+    font-weight: 800;
+    position: absolute;  
+    margin-left: 660px;
+}
+.box2 , .box4 , .box6 , .box8{
+    
+    text-align: left;
+    font-size: 50px;
+    text-shadow: 2px 1px gray;
+    font-weight: 800;
+    margin-left: 5px;
+    margin-top: 10px;  
+}
+.box5{margin-left: 620px;}
+.box7{margin-left:575px}

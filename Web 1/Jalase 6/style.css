@@ -1,0 +1,4 @@
+h1 > em {background-color: red;}
+h2 > em {background-color: blue;}
+h3 > em {background-color: green;}
+h4 > em {background-color: teal;}

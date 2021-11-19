@@ -1,0 +1,25 @@
+.box {width: 500px;
+height: 500px;
+background-color: royalblue;
+border-radius: 50%;
+box-shadow: 20px 20px 20px black;
+border: 10px solid crimson;
+}
+.text {color: rgb(128, 26, 0);
+    text-shadow:0 0 10px black;
+    margin-left: 230px;}
+.text1 { color:rgb(128, 26, 0);  
+text-shadow: 0px 0px 10px black;
+margin-left: 210px;
+}
+.text2{
+    color: rgb(128, 26, 0);
+text-shadow:0 0 10px black;
+margin-left: 145px;
+}
+.text3 {
+    color: rgb(128, 26, 0);
+text-shadow:0 0 10px black;
+margin-left: 80px;
+}
+
