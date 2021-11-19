@@ -1,0 +1,69 @@
+
+body{background-color: black;}
+p{
+    width: 465px;
+    height: 140px;
+    background-color: crimson;
+    color: cornflowerblue;
+font-size: 100px;
+font-weight: 900;
+font-family: 'Estonia', 'cursive';
+animation: masoud-font 5s infinite;
+animation-timing-function: linear;
+text-shadow: 2px 2px 2px white;
+position: fixed;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+animation: masoud-animation 5s infinite;
+animation-timing-function: linear;
+position:fixed;
+border: 5px solid black;
+box-shadow: 2px 2px 10px white;}
+
+@keyframes masoud-animation{
+    0%{left: calc(50% - 100px);
+        top: 0;
+    }
+25%{
+    left:0;
+    top: calc(50% - 200px);
+    border-radius: 100%;
+    background-color: red
+}
+50%{  
+    left:calc(50% - 200px);
+    top: calc(100% - 200px);
+    background-color: green;
+    border-radius: 0;
+}
+75%{
+    left:calc(100% - 200px);
+    top: calc(50% - 100px);
+    background-color: darkmagenta;
+    border-radius: 100%;
+}
+100%{left: calc(50% - 100px);
+    top: 0;
+background-color: royalblue;
+border-radius: 0%;}
+    }
+@keyframes masoud-font{
+0%{left: 0px;
+top: 0px;}
+100%{
+    top: 0px;
+    left: 100%;
+    border-radius: 100%;
+    background-color: darkgreen;
+    color: darkmagenta;
+}    
+    }
+
+
+
+
+
+
